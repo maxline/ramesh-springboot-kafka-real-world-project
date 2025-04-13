@@ -30,6 +30,10 @@ http://localhost:8080/api/v1/kafka/user-publish
 ## wikimedia api
 - https://stream.wikimedia.org/v2/stream/recentchange
 
+## Database 
+```
+SELECT * FROM wikimedia.wikimedia_recentchange;
+```
 ## Useful config settings
 logging.level.org.springframework.web: DEBUG
 
